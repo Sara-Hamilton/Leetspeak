@@ -36,6 +36,11 @@ namespace Leetspeak.Tests
       Assert.AreEqual("azziztant", testLeetspeak.Leetspeak("assistant"));
     }
 
-
+    [TestMethod]
+    public void Leetspeak_FirstSUnchanged_LeetspeakTranslation()
+    {
+      LeetspeakGenerator testLeetspeak = new LeetspeakGenerator();
+      Assert.AreEqual("sazzy", testLeetspeak.Leetspeak("sassy"));
+    }
   }
 }
