@@ -22,5 +22,11 @@ namespace Leetspeak.Tests
       Assert.AreEqual("g30rg3", testLeetspeak.Leetspeak("gEOrge"));
     }
 
+    [TestMethod]
+    public void Leetspeak_CapitalIToOne_LeetspeakTranslation()
+    {
+      LeetspeakGenerator testLeetspeak = new LeetspeakGenerator();
+      Assert.AreEqual("Indiana", testLeetspeak.Leetspeak("1ndiana"));
+    }
   }
 }
