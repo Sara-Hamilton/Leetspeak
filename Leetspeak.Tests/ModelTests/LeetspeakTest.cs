@@ -28,5 +28,14 @@ namespace Leetspeak.Tests
       LeetspeakGenerator testLeetspeak = new LeetspeakGenerator();
       Assert.AreEqual("1ndiana", testLeetspeak.Leetspeak("Indiana"));
     }
+
+    [TestMethod]
+    public void Leetspeak_SToZ_LeetspeakTranslation()
+    {
+      LeetspeakGenerator testLeetspeak = new LeetspeakGenerator();
+      Assert.AreEqual("azziztant", testLeetspeak.Leetspeak("assistant"));
+    }
+
+
   }
 }
