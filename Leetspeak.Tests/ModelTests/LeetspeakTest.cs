@@ -12,7 +12,7 @@ namespace Leetspeak.Tests
     public void Leetspeak_EToThree_LeetspeakTranslation()
     {
       LeetspeakGenerator testLeetspeak = new LeetspeakGenerator();
-      Assert.AreEqual("ch33s3", testLeetspeak.Leetspeak("cheese"));
+      Assert.AreEqual("ch33r", testLeetspeak.Leetspeak("cheer"));
     }
 
     [TestMethod]
