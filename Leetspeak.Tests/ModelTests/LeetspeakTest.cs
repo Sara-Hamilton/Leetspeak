@@ -19,7 +19,7 @@ namespace Leetspeak.Tests
     public void Leetspeak_OToZero_LeetspeakTranslation()
     {
       LeetspeakGenerator testLeetspeak = new LeetspeakGenerator();
-      Assert.AreEqual("g30rg3", testLeetspeak.Leetspeak("george"));
+      Assert.AreEqual("g30rg3", testLeetspeak.Leetspeak("gEOrge"));
     }
 
   }
