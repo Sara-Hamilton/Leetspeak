@@ -26,7 +26,7 @@ namespace Leetspeak.Tests
     public void Leetspeak_CapitalIToOne_LeetspeakTranslation()
     {
       LeetspeakGenerator testLeetspeak = new LeetspeakGenerator();
-      Assert.AreEqual("Indiana", testLeetspeak.Leetspeak("1ndiana"));
+      Assert.AreEqual("1ndiana", testLeetspeak.Leetspeak("Indiana"));
     }
   }
 }
