@@ -23,6 +23,9 @@ _This is an Epicodus practice project for week 2 of the C# course. Its purpose i
 * Takes in a string and replaces capital "I" with 1 (avoids replacing lower-case i).
   * sample input : "Indiana"
   * sample output : "1ndiana"
+* Takes in a string and replaces the letter "t" with 7.
+  * sample input: "itch"
+  * sample output: "i7ch"
 * Takes in a string and replaces "s" with z
   * sample input : "assistant"
   * sample output : "azziztant"
