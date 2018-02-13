@@ -40,7 +40,7 @@ namespace Leetspeak.Tests
     public void Leetspeak_SToZ_LeetspeakTranslation()
     {
       LeetspeakGenerator testLeetspeak = new LeetspeakGenerator();
-      Assert.AreEqual("azziztant", testLeetspeak.Leetspeak("assistant"));
+      Assert.AreEqual("az", testLeetspeak.Leetspeak("as"));
     }
 
     [TestMethod]
