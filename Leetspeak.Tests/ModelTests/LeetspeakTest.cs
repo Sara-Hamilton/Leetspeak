@@ -37,10 +37,17 @@ namespace Leetspeak.Tests
     }
 
     [TestMethod]
-    public void Leetspeak_FirstSUnchanged_LeetspeakTranslation()
+    public void Leetspeak_LowerFirstSUnchanged_LeetspeakTranslation()
     {
       LeetspeakGenerator testLeetspeak = new LeetspeakGenerator();
       Assert.AreEqual("sazzy", testLeetspeak.Leetspeak("sassy"));
+    }
+
+    [TestMethod]
+    public void Leetspeak_CapitalFirstSUnchanged_LeetspeakTranslation()
+    {
+      LeetspeakGenerator testLeetspeak = new LeetspeakGenerator();
+      Assert.AreEqual("Sazzy", testLeetspeak.Leetspeak("Sassy"));
     }
   }
 }
