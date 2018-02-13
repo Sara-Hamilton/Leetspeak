@@ -30,6 +30,13 @@ namespace Leetspeak.Tests
     }
 
     [TestMethod]
+    public void Leetspeak_TToSeven_LeetspeakTranslation()
+    {
+      LeetspeakGenerator testLeetspeak = new LeetspeakGenerator();
+      Assert.AreEqual("i7ch", testLeetspeak.Leetspeak("itch"));
+    }
+
+    [TestMethod]
     public void Leetspeak_SToZ_LeetspeakTranslation()
     {
       LeetspeakGenerator testLeetspeak = new LeetspeakGenerator();
